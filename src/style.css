@@ -1,0 +1,48 @@
+.fieldset {
+  width: 24rem;
+  margin-bottom: 1.25rem;
+  padding: 1.25rem;
+  border-radius: 0.5rem;
+}
+
+.label,
+.radio-group-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: fit-content;
+}
+
+.label:not(:last-child),
+.radio-group-wrapper:not(:last-child) {
+  margin-bottom: 0.65rem;
+}
+
+.label--select,
+.label--textarea {
+  align-items: flex-start;
+}
+
+.checkbox-wraper {
+  display: inline-flex;
+  align-items: center;
+}
+
+.radio-wrapper {
+  display: inline-flex;
+  align-items: center;
+}
+
+.textarea {
+  min-width: 15.75rem;
+  min-height: calc(1rem * 1.15 * 3);
+}
+
+.submit {
+  padding: 0.75rem 2.5rem;
+  font-size: 1rem;
+  color: #fff;
+  border: none;
+  border-radius: 0.75rem;
+  background-color: #94e094;
+}
